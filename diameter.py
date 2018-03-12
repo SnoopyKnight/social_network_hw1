@@ -65,6 +65,11 @@ def main():
     ub = 2 * ecc_u\
     ##
     print('diameter: ',distance)
+    
+    
+    ### clustering coefficietn ###
+    c = nx.average_clustering(G)
+    
 if __name__ == '__main__':
     main()
     
